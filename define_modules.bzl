@@ -58,11 +58,6 @@ def define_modules(target, variant):
                     "core/rmnet_ctl_client.c",
                 ],
             },
-            "CONFIG_ARCH_YUPIK": {
-                True: [
-                    "core/rmnet_ctl_client.c",
-                ],
-            },
         },
         kernel_build = kernel_build,
         deps = deps_ctl + [
