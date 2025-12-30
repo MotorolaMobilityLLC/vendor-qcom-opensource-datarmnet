@@ -7,7 +7,6 @@ RMNET_CORE_DLKM_PLATFORMS_LIST += monaco
 RMNET_CORE_DLKM_PLATFORMS_LIST += lahaina
 RMNET_CORE_DLKM_PLATFORMS_LIST += bengal
 RMNET_CORE_DLKM_PLATFORMS_LIST += chora
-RMNET_CORE_DLKM_PLATFORMS_LIST += malabar
 
 ifeq ($(call is-board-platform-in-list, $(RMNET_CORE_DLKM_PLATFORMS_LIST)),true)
 #Make file to create RMNET_CORE DLKM
